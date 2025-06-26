@@ -196,6 +196,7 @@ export default defineConfig({
 		react(),
 		addTransformIndexHtml
 	],
+	base: process.env.VITE_BASE_PATH || "/habits-manager",
 	server: {
 		cors: true,
 		headers: {
